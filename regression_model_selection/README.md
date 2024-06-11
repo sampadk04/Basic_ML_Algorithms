@@ -1,8 +1,30 @@
-# regression_model_selection
+# Regression Model Selection
 
-- In this notebook, I built different linear regression models using `California Housing Data` fetched from `sklearn.datasets`:
-  - Linear regression (with normal equation and iterative optimization (SGD)), Polynomial Regression
-  - Regularizarized regression models - Ridge, Lasso, Elastinet
-- I tuned polynomial degree, regularization rate and learning rate with hyper-parameter tuning and cross-validation.
-- I also employed Grid Search and Randomized Search via `GridSearchCV` and `RandomizedSearchCV`to tune multiple hyperparameters.
-- Lastly, I compared different models in terms of their parameter vectors and mean absolute error on train, dev (validation) and test sets, and analyzed their evaluation score on the test dataset.
+This repository contains a Jupyter notebook that explores various linear regression models using the California Housing Data from `sklearn.datasets`. The notebook covers model building, hyper-parameter tuning, and model evaluation.
+
+## Models Implemented
+
+- **Linear Regression**
+  - Ordinary Least Squares (using normal equation)
+  - Stochastic Gradient Descent (SGD)
+- **Polynomial Regression**
+- **Regularized Regression Models**
+  - Ridge Regression
+  - Lasso Regression
+  - Elastic Net Regression
+
+## Hyper-parameter Tuning
+
+The following techniques were employed to optimize model parameters:
+- **Polynomial Degree Tuning**
+- **Regularization Rate Adjustment**
+- **Learning Rate Adjustment**
+- **Grid Search** using `GridSearchCV`
+- **Randomized Search** using `RandomizedSearchCV`
+
+## Model Evaluation
+
+Models were compared based on:
+- Parameter vectors
+- Mean Absolute Error (MAE) on training, validation (development), and test sets
+- Evaluation scores on the test dataset

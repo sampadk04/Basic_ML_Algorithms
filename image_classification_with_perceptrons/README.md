@@ -1,14 +1,39 @@
-# image_classification_with_perceptrons
+# Image Classification with Perceptrons
 
-(This project primarily uses the `sklearn` library for implementation)
+This project utilizes the `sklearn` library to implement image classification using Perceptron Classifiers on the `MNIST_784` dataset.
 
-- In this project, I use the Perceptron Classifier to clasifiy the images in MNIST_784 dataset.
-- I do this in two steps:
-  - Firstly, I build a binary classifier to classify digits labeled '0' and 'not 0'.
-  - Secondly, I combine this classifer 10 times to classify all 10 digits in a "One vs All" fashion to build a multi-class classifier.
-- I also test the models with and without cross-validations.
-- I also evaluate the models via various metrics and also tried tweaking the threshold to improve the 'Precision' by looking at the PR-Curves.
-- I also analyze Precision-Recall in detail.
-- I conduct a Grid Search to improve the hyperparameters.
-- I also analyze the behaviour of weight vector in the binary classification case, which helps explain the false positive cases to some extent.
-- Finally, I also test the multi-class model on handwritten digits of my own.
+## Project Overview
+
+In this project, we explore the use of Perceptron Classifiers for image classification through the following steps:
+
+1. **Binary Classification:**
+   - We first build a binary classifier to distinguish between the digit '0' and 'not 0'.
+
+2. **Multi-class Classification:**
+   - We extend the binary classifier to a multi-class classifier by combining 10 binary classifiers in a "One vs All" fashion to classify all 10 digits.
+
+3. **Model Testing and Validation:**
+   - We evaluate the models with and without cross-validation to ensure robustness.
+
+4. **Model Evaluation:**
+   - Various metrics are employed to evaluate the models, and we tweak the classification threshold to improve precision by examining Precision-Recall (PR) Curves.
+   - A detailed analysis of Precision-Recall is also conducted.
+
+5. **Hyperparameter Tuning:**
+   - A Grid Search is performed to optimize the hyperparameters of the model.
+
+6. **Weight Vector Analysis:**
+   - In the binary classification case, we analyze the behavior of the weight vector, which helps explain some false positive cases.
+
+7. **Custom Data Testing:**
+   - Finally, the multi-class model is tested on handwritten digits of our own.
+
+## Features
+
+- **Binary and Multi-class Classification:** Implementation of Perceptron Classifiers for both binary and multi-class classification.
+- **Cross-Validation:** Testing the model performance with cross-validation.
+- **Evaluation Metrics:** Use of various metrics to evaluate model performance.
+- **Precision-Recall Analysis:** Detailed analysis and threshold tuning for precision improvements.
+- **Hyperparameter Tuning:** Optimization of hyperparameters using Grid Search.
+- **Weight Vector Analysis:** Understanding the model behavior through weight vector analysis.
+- **Custom Data Testing:** Evaluation of the model on custom handwritten digits.

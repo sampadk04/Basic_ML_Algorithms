@@ -1,12 +1,26 @@
-# LSC_from_scratch
+# Least Squares Classifier from Scratch
 
-- I implement Least Square Classifier (LSC) from scratch.
-- I also implement **label encoder** to transform the output labels into usable form (for both binary and multi-class) classification setup.
-- I have addressed four types of problems:
-    - first with binary linearly separable data without outliers
-    - second with binary separable data with outliers
-    - third with multiclass separable data (in our case we looked at separating into three classes)
-    - fourth with non linearly separable data
-- The first three problems (binary and multiclass) could be addressed with basic LSC, while the fourth required additional step of **polynomial transformation** before employing LSC.
-- I conclude from the second case that LSC is highly sensitive to the presence of outliers.
-- I also analyze how the decision boundaries work, and visualize the same.
+This repository contains an implementation of the Least Squares Classifier (LSC) from scratch. It includes functionality for label encoding to transform output labels for both binary and multi-class classification setups.
+
+## Features
+
+- **Least Squares Classifier Implementation**: A step-by-step implementation of the LSC algorithm from the ground up.
+- **Label Encoder**: Transforms output labels into a usable form for both binary and multi-class classification.
+- **Problem Types Addressed**:
+  - **Binary Linearly Separable Data without Outliers**
+  - **Binary Linearly Separable Data with Outliers**
+  - **Multiclass Linearly Separable Data** (e.g., separating into three classes)
+  - **Non-Linearly Separable Data** (requires polynomial transformation before applying LSC)
+
+## Insights
+
+- **Outlier Sensitivity**: The LSC is highly sensitive to the presence of outliers, as demonstrated in the second problem type.
+- **Decision Boundaries**: Analysis and visualization of decision boundaries for each classification problem.
+
+## Conclusion
+
+The repository provides a comprehensive analysis of how the Least Squares Classifier works under different scenarios. It demonstrates both the strengths and weaknesses of LSC, particularly its sensitivity to outliers and its applicability to various types of classification problems.
+
+## Visualizations
+
+Visualizations are included to help understand how the decision boundaries are formed and how they change with different types of data.

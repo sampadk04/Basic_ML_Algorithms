@@ -1,9 +1,14 @@
-# Perceptrons_from_scratch
+# Perceptrons from Scratch
 
-- I implement the perceptron classifier from scratch.
-- I look at 3 different cases and analyze those using our model:
-    - First, for linearly separable data.
-    - Second, for linearly inseparable data (with approximate linear boundary fit).
-    - Third, for non-linearly separable data.
-- I also look at the learning curves and analyze the loss.
-- Finally, I visualize the decision boundary obtained by the model in each instance.
+This repository contains an implementation of the perceptron classifier from scratch, along with an analysis of its performance on various types of data. The project explores three different cases:
+
+1. **Linearly Separable Data**: Data that can be perfectly separated by a linear boundary.
+2. **Linearly Inseparable Data**: Data that cannot be perfectly separated by a linear boundary, but an approximate fit is attempted.
+3. **Non-Linearly Separable Data**: Data that cannot be separated by a linear boundary at all.
+
+## Features
+
+- **Implementation**: A custom-built perceptron classifier.
+- **Analysis**: Detailed examination of the model's performance on different datasets.
+- **Learning Curves**: Visualization of the learning process and analysis of the loss over time.
+- **Decision Boundaries**: Visual representation of the decision boundaries for each dataset type.
